@@ -1,5 +1,5 @@
 {
-  "version": "0.3.0",
+  "version": "0.4.0",
   "name": "trace-router-react",
   "author": "doasync",
   "license": "MIT",
@@ -22,8 +22,8 @@
   },
   "peerDependencies": {
     "effector": ">=21",
-    "react": ">=16",
-    "effector-react": ">=21"
+    "effector-react": ">=21",
+    "react": ">=16"
   },
   "husky": {
     "hooks": {
