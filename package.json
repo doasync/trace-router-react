@@ -50,5 +50,19 @@
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "keywords": [
+    "react",
+    "router",
+    "react-router",
+    "route",
+    "routing",
+    "history",
+    "location",
+    "effector",
+    "reactive",
+    "event-driven",
+    "data-driven",
+    "dataflow"
+  ]
 }
