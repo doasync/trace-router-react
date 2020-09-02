@@ -1,21 +1,9 @@
 /* eslint-disable react/jsx-props-no-spreading */
 import { useStore } from 'effector-react';
 import React, { useMemo, useRef } from 'react';
+import { shouldUpdate } from 'trace-router';
 
 import { ObjectAny, Params, UseRoute, RouteProps, LinkProps } from './types';
-
-export const shouldUpdate = (
-  current: ObjectAny,
-  target: ObjectAny
-): boolean => {
-  for (const key in target) {
-    // noinspection JSUnfilteredForInLoop
-    if (key in current && target[key] !== current[key]) {
-      return true;
-    }
-  }
-  return false;
-};
 
 export const useRoute: UseRoute = route => useStore(route.visible);
 

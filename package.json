@@ -23,7 +23,8 @@
   "peerDependencies": {
     "effector": ">=21",
     "effector-react": ">=21",
-    "react": ">=16"
+    "react": ">=16",
+    "trace-router": ">=0.5"
   },
   "husky": {
     "hooks": {
@@ -45,7 +46,7 @@
     "path-to-regexp": "^6.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "trace-router": "^0.4.0",
+    "trace-router": "^0.5.0",
     "tsdx": "^0.13.3",
     "tslib": "^2.0.1",
     "typescript": "^4.0.2"
