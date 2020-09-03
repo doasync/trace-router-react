@@ -2,8 +2,9 @@
 import { useStore } from 'effector-react';
 import React, { useMemo, useRef } from 'react';
 import { shouldUpdate } from 'trace-router';
+import { ObjectAny, Params } from 'trace-router/dist/types';
 
-import { ObjectAny, Params, UseRoute, RouteProps, LinkProps } from './types';
+import { LinkProps, RouteProps, UseRoute } from './types';
 
 export const useRoute: UseRoute = route => useStore(route.visible);
 
