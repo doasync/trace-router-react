@@ -5704,10 +5704,10 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
-trace-router@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/trace-router/-/trace-router-0.6.0.tgz#33ee532dcd393b34313407eae9205d3613cfd3fc"
-  integrity sha512-d+H7wCxrISQuzR5Xyt6lLH863gOz56uIt3uFuvcyZ0LRc7M0px1segWwoJnHhXLmclkt7tfRN1O0MnxfUiRSzg==
+trace-router@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/trace-router/-/trace-router-0.9.1.tgz#ea035761bb2d9042e794da54602c91d4e957c328"
+  integrity sha512-83DEj2k06UZiQXTVo61dxj5eYtcOpFcIM7422Z72gVjWof6/rb9lARFzEkFeSwC4ejRxZ/ArcVuGBWkt/wMKtg==
   dependencies:
     history "^5.0.0"
     path-to-regexp "^6.1.0"

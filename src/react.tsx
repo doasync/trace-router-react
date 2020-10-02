@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-props-no-spreading */
 import { useStore } from 'effector-react';
 import React, { useMemo, useRef } from 'react';
 import { shouldUpdate } from 'trace-router';
@@ -46,7 +45,6 @@ export const Link = <P extends Params>({
     });
   };
 
-  // eslint-disable-next-line react-hooks/exhaustive-deps
   const href = useMemo(compileFactory, [
     to,
     query,

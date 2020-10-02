@@ -1,11 +1,16 @@
-import { ParseOptions, TokensToFunctionOptions } from 'path-to-regexp';
 import {
   AnchorHTMLAttributes,
   ComponentType,
   DetailedHTMLProps,
   ReactNode,
 } from 'react';
-import { MergedRoute, Params, Route } from 'trace-router/dist/types';
+import {
+  MergedRoute,
+  Params,
+  Route,
+  ParseOptions,
+  TokensToFunctionOptions,
+} from 'trace-router/dist/types';
 
 export type RouteProps = {
   of: Route;
