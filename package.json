@@ -25,10 +25,10 @@
     "prepare": "tsdx build"
   },
   "peerDependencies": {
-    "effector": ">=21",
     "effector-react": ">=21",
     "react": ">=16",
-    "trace-router": ">=0.6"
+    "trace-router": ">=0.6",
+    "path-to-regexp": ">=6"
   },
   "husky": {
     "hooks": {
