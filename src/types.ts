@@ -13,7 +13,7 @@ import {
 } from 'trace-router/dist/types';
 
 export type RouteProps = {
-  of: Route;
+  of: Route | MergedRoute;
   children?: ReactNode;
   component?: ComponentType;
 };
